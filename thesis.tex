@@ -144,7 +144,13 @@
 
 \include{content/0_abstract}\cleardoublepage
 
+\newpage
+
 \tableofcontents
+
+\newpage
+
+\pagenumbering{arabic}
 
 \mainmatter
 \include{content/1_intro}
@@ -157,6 +163,7 @@
 % remove if not needed
 \appendix
 \include{content/a1_supplemental}
+\include{content/a2_test_of_latex}
 
 \backmatter
 \listoffigures
@@ -169,7 +176,8 @@
 \lstlistoflistings
 \cleardoublepage
 
-\bibliographystyle{wmaainf}
+%\bibliographystyle{wmaainf}
+\bibliographystyle{unsrtdin}
 \bibliography{refs}
 
 \printnoidxglossaries
