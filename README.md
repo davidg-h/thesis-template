@@ -3,12 +3,10 @@
 Basic template for reports, bachelor and master theses at the [Technische Hochschule Nürnberg Georg Simon Ohm](https://www.th-nuernberg.de/).
 It is set up to be printed as a book including a coverpage.
 
-
 ## Important!
 
 You need to download, fill and save-as-pdf the official [statement and copyright form `SB_0009_V11_FO`](https://www.th-nuernberg.de/fileadmin/global/Public_Docs/SB/SB_0009_FO_Pruefungsrechtliche_Erklaerung_und_Erklaerung_zur_Veroeffentlichung_der_Abschlussarbeit_public.pdf), in its most recent version.
 It will be included in the final `thesis.pdf`.
-
 
 ## A few tips for writing your thesis:
 
@@ -19,8 +17,11 @@ It will be included in the final `thesis.pdf`.
 - Use UTF-8 encoding on your files to make special characters wörk.
 - Keep your literature up to date -- add references to your bib file as you read them.
 
-
 ## Other resources regarding your thesis
 
 - [Informationen und Vorlagen](https://intern.ohmportal.de/institutionen/fakultaeten/informatik/studierende/infos-zum-studium/abschlussarbeiten/informationen-und-vorlagen/page.html) (German, Ohm intranet)
 - [Wie schreibe ich eine Abschlussarbeit](https://www.in.th-nuernberg.de/Professors/Weber/Abschlussarbeit%20Methodik.pdf) by Prof. Dr. Rainer Weber (German, Ohm intranet).
+
+## Build instructions
+
+A complete cross-platform setup and build guide (Windows, Linux, macOS) is available in [BUILD_GUIDE.md](BUILD_GUIDE.md).
