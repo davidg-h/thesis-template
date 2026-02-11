@@ -4,6 +4,7 @@ THESIS=thesis
 .SUFFIXES:
 .SUFFIXES: .bib .pdf .tex
 .PHONY: clean
+.PHONY: rc
 
 run: $(THESIS).pdf
 
@@ -33,3 +34,7 @@ $(THESIS).aux: refs.bib
 clean:
 	rm -f *.{aux,lof,log,lot,lol,,bcf,toc,bbl,blg,run.xml,out}
 	rm -f content/*.{aux,lof,log,lot,lol,,bcf,toc,bbl,blg,run.xml,out}
+
+rc:
+	$(MAKE) run
+	$(MAKE) clean
